@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background: $body-bg-color;
+    font-family: 'Lato';
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+.flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 33%;
+    
+  }
+
+.flex-item-center {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 33%;
+  }
+  
+  
+.flex-item-right {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 33%;
+  }
+
+  
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.child {
+    flex: 40%;
+    margin: 0px;
+    padding: 0px;
+}
+div.child h2{
+  margin-top: 120px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+div.child p{
+  margin-left: 80px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+.container1 h2{
+    text-align: center;
+  }
+  
+.img-circular1, .img-circular2, .img-circular3{
+    /*width: 200px;*/
+    /*height: 200px;*/
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+     border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    // float: left;
+    padding: 50px;
+    margin-top: 50px;
+   
+    
+   }
+  .img-circular1{
+      background-image: url('/content/testimonials-1.jpg');
+      margin-right: 80px;
+      margin-left: 40px;
+   }
+  .img-circular1 p{
+     margin-top: 150px;
+   }
+  
+  .img-circular2{
+      background-image: url('/content/testimonials-2.jpg');
+      margin-right: 80px;
+   }
+  
+  .img-circular2 p{
+    margin-top: 150px;
+  }
+      
+   
+  .img-circular3{
+      background-image: url('/content/testimonials-3.jpg');
+      margin-right: 80px;
+   }
+  .img-circular3 p{
+    margin-top: 150px;
+  }
+   
+  .container1{
+     left: 15%; 
+     width: 70%; 
+  
+     height: 300px;
+     position: relative; 
+     margin-top: 90px;
+     margin-bottom: 140px;
+     
+     }
+  

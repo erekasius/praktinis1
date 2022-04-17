@@ -1,0 +1,66 @@
+.banner-bottom{
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.banner-bottom img{
+    width: 100%;
+    height: 350px;
+}
+.banner-text-bottom{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+
+footer{
+  margin-bottom: 150px;
+}
+.footer-container{
+ 
+   display: inline;
+   
+}
+.footer-links{
+ 
+  margin-left: 150px;
+  display: inline;
+}
+.footer-links a{
+ 
+  text-decoration: none;
+  margin-left: 25px;
+  color: #2742FF;
+
+}
+.footer-text{
+  margin-left: 160px;
+  color: grey;
+}
+.social-icons{
+  display: inline;
+  margin-left: 350px;
+  
+}
+.social-icons a{
+  margin-left: 35px;
+  
+}
+
+#email-text{
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+}
+#email-sign-up{
+  border-radius: 8px;
+  background-color: #2742FF;
+  color: #FFFFFF;
+  padding: 10px;
+  cursor: pointer;
+  border-color: none;
+}
